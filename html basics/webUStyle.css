@@ -72,14 +72,12 @@ table {
   font-size: 2rem;
 }
 
-pre,
-p {
+pre, p{
   font-size: 1rem;
   padding-left: 7vw;
 }
 
-main {
-}
+
 
 article {
   display: inline-flex;
