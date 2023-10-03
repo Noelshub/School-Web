@@ -73,7 +73,16 @@ table{
 }
 
 pre, p{
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 
+main{
+  display:flex;
+  margin: auto;
+  
+}
+
+p{
+  margin:auto;
+}
 
