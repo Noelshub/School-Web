@@ -85,4 +85,9 @@ main{
 p{
   margin:auto;
 }
+article{
+  margin:auto;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
 
