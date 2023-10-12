@@ -84,7 +84,9 @@ pre, p{
   font-size: 1rem;
   padding-left: 7vw;
   padding-right: 10vw;
+  margin: 0.2rem;
 }
+
 
 
 
@@ -96,6 +98,9 @@ article {
   border-style: solid;
   margin-right: 20%;
   margin-left: 20%;
+  padding-bottom: 5vh;
+  box-shadow: 5px 5px 10px 10px black;
+  border-radius: 50px;
 }
 
 h2 {
@@ -113,4 +118,15 @@ h1 {
 section {
   margin: auto;
   border: 2rem;
+}
+
+
+footer{
+  text-align: center;
+  border-style: solid;
+  box-shadow: 5px 5px 10px 10px black;
+  font-size: xx-large;
+}
+body{
+  margin-bottom: 0;
 }
