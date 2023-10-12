@@ -57,7 +57,7 @@ a:hover {
   color: white;
 }
 .active {
-  background-color: blueviolet;
+  background-color: rgb(226, 70, 43);
 }
 
 tr {
@@ -80,20 +80,15 @@ table {
 }
 
 pre, p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
   padding-left: 7vw;
   padding-right: 10vw;
   margin: 0.2rem;
 }
 
-
-
-
 article {
   display: inline-flex;
   flex-direction: column;
-  margin-top: 5vh;
   margin-bottom: 5vh;
   border-style: solid;
   margin-right: 20%;
@@ -101,6 +96,7 @@ article {
   padding-bottom: 5vh;
   box-shadow: 5px 5px 10px 10px black;
   border-radius: 50px;
+  background-color: white;
 }
 
 h2 {
@@ -120,13 +116,23 @@ section {
   border: 2rem;
 }
 
-
 footer{
   text-align: center;
   border-style: solid;
   box-shadow: 5px 5px 10px 10px black;
-  font-size: xx-large;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  font-size: 5rem;
+  background-color: white;
 }
 body{
-  margin-bottom: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: gray;
+}
+
+img{
+  width: 40vw;
+  height: 43vh;
+  align-self: center;
 }
