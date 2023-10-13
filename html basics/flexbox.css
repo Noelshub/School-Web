@@ -20,6 +20,9 @@ body{
     flex-wrap:wrap;
     align-items:stretch;
   }
+  footer{
+    columns: 2;
+  }
 }
 .moveable-box{
   padding:1em;
