@@ -18,6 +18,11 @@ Element på sidan:
     width: 0.3vw; (0.3% av viewport widht)
 */
 
+html{
+  color: white;
+}
+
+
 nav {
   width: 100%;
   position: fixed;
@@ -35,7 +40,7 @@ main {
   padding: 0;
   background-color: #00ABE7;
   display: flex;
-  box-shadow: 0 5px 5px 0 rgb(0,0,0, 0.9);
+  box-shadow: 0 5px 5px 0 rgb(0,0,0, 0.5);
 }
 
 a {
@@ -92,10 +97,11 @@ article {
   flex-direction: column;
   margin-bottom: 5vh;
   border-style: solid;
+  border-color: black;
   margin-right: 20%;
   margin-left: 20%;
   padding-bottom: 5vh;
-  box-shadow: 0 5px 5px 10px rgb(0, 0, 0, 0.7) ;
+  box-shadow: 0 5px 5px 5.5px rgb(0, 0, 0, 0.5) ;
   border-radius: 50px;
   background-color: #00ABE7;
 }
@@ -120,11 +126,12 @@ section {
 footer{
   text-align: center;
   border-style: solid;
-  box-shadow: 0 10px 10px 15px black;
+  box-shadow: 0 10px 10px 15px rgb(0 0 0 / 0.5);
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   font-size: 5rem;
   background-color: #00ABE7;
+  border-color: black;
 }
 body{
   margin: 0;
