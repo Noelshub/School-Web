@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 html,
 body {
@@ -92,10 +94,12 @@ body::-webkit-scrollbar-thumb {
 }
 .container{
   width:80%;
-  margin: 50px auto;
+  margin: 6rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #0f299b;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 5px 0 rgb(0,0,0, 0.5);
 }
 
 .contact-right{
@@ -111,6 +115,7 @@ body::-webkit-scrollbar-thumb {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-content: center;
 }
+
 .input1{
   width: 40rem;
   height: 1.6rem;
@@ -118,35 +123,34 @@ body::-webkit-scrollbar-thumb {
 
 #input2{
   width: 40rem;
-  height: 4rem;
+  padding-bottom: 10rem;
   
 }
-#button{
+button{
   width: 10rem;
   height: 2rem;
+  border-radius: 24px;
 }
 div h2{
-  font-size: 2rem;
+  font-size: 3rem;
   padding-bottom: 2rem;
 }
 section h3{
   font-size: 3rem;
-  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 section a{
   font-size: 2rem;
   text-decoration: none;
+  color: white;
+}
+section a:hover{
+  color: #dedede
 }
 
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 
 .wrapper {
   position: fixed;
@@ -219,3 +223,5 @@ header h2 {
   background-color: #4070f4;
   color: #fff;
 }
+
+
