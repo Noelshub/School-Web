@@ -8,6 +8,7 @@ nav{
     display:flex;
 }
 
-a{
-    color: black;
+.grid{
+    display:grid;
+    grid-template-columns: ;
 }
