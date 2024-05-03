@@ -5,40 +5,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <nav>
-      <ul>
-        <a href="#">Noel Gabrielsson</a>
-      </ul>
-      <div class="navdiv">
-        <ul>
-          <a href="contact.html">Kontakta mig</a>
-        </ul>
-        <ul>
-          <a href="#">Projekt</a>
-        </ul>
-        <ul>
-          <a href="#">Utbildning och erfarenhet</a>
-        </ul>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#" class="active">Noel Gabrielsson</a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="#"></a>
+        <a href="#Contact">Contact</a>
+        <a href="#">About</a>
       </div>
-    </nav>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
     <main>
-
       <!--Carousel-->
-      <section class="gallery">
+
+      <ul class="gallery">
         <li id="id1">Noel Gabrielsson Lithander</li>
         <li id="id2"></li>
         <li id="id3"></li>
         <li id="id4"></li>
         <li id="id5"></li>
-      </section>
-      
-      <section>
-        <h1>Mina projekt</h1>
+      </ul>
+      <h1>My projects</h1>
+      <section class="gridbox">
+        
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -50,8 +55,9 @@
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaSBu9qA2MNp_KpKForzsLx7FodfnY1ETSinjWBeiPA&s">
       </section>
-    </main>
+    
 
     <!--Cookie-->
     <div class="wrapper">
@@ -60,14 +66,17 @@
         <h2>Cookies</h2>
       </header>
       <div class="data">
-        <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+        <p>
+          This website use cookies to help you have a superior and more relevant
+          browsing experience on the website. <a href="#"> Read more...</a>
+        </p>
       </div>
       <div class="buttons">
         <button class="button" id="acceptBtn">Accept</button>
         <button class="button" id="declineBtn">Decline</button>
       </div>
     </div>
-
+    <a id="Contact"></a>
     <div class="container">
       <div class="contact-right">
         <h2>Kontakta Mig</h2>
@@ -76,28 +85,25 @@
           <input class="input1" type="email" placeholder="JohnDoe@gmail.com" />
 
           <h3>Namn</h3>
-          <input class="input1" type="text" placeholder="John Doe"/>
+          <input class="input1" type="text" placeholder="John Doe" />
 
           <h3>Meddelande</h3>
-          <textarea type="text" id="input2" placeholder="Hej!"></textarea>
-          <br></br>
+          <textarea id="input2" placeholder="Hej!"></textarea>
+          <br />
           <button type="submit">SEND</button>
         </form>
       </div>
     </div>
+    </main>
     <footer>
-      
-
-        <section class="contact-left">
-          <h3>Socials</h3>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Youtube</a>
-          <a href="https://www.instagram.com/">Instagram</a>
-          <a href="https://twitter.com/?lang=sv">Twitter</a>
-        </section>
-     
+      <section class="contact-left">
+        <h3>Socials</h3>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Youtube</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://twitter.com/?lang=sv">Twitter</a>
+      </section>
     </footer>
 
     <script src="script.js"></script>
-
   </body>
 </html>
