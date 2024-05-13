@@ -1,3 +1,5 @@
+
+// carousell
 const slider = document.querySelector('.gallery');
 let isDown = false;
 let startX;
@@ -26,6 +28,9 @@ slider.addEventListener('mousemove', e => {
   slider.scrollLeft = scrollLeft - walk;
 });
 
+
+
+//cookie
 const cookieBox = document.querySelector(".wrapper"),
   buttons = document.querySelectorAll(".button");
 
@@ -52,6 +57,8 @@ const executeCodes = () => {
 window.addEventListener("load", executeCodes);
 
 
+
+// hamburger menu
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
