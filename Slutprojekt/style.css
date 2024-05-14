@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 footer{
   background-color: #507dbc;
   text-align: center;
-  padding: 1rem 0 1rem;
+  padding: 1rem 0 3rem;
 }
 
 .container{
@@ -120,13 +120,12 @@ footer{
 }
 
 
-.topnav a:hover {
+#myLinks a:hover {
   background-color: #ddd;
   color: black;
 }
 
-
-.active {
+.active{
   background-color: #240f0f;
   color: white;
 }
@@ -151,19 +150,24 @@ div h2{
   font-size: 3rem;
   padding-bottom: 2rem;
 }
-section h3{
+.contact-left h3{
   font-size: 3rem;
   padding-bottom: 2rem;
 }
-section a{
+.contact-left a{
   font-size: 2rem;
   text-decoration: none;
   color: white;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
+  border-top: solid black 5rem;
+  border-width: 0.25rem;
+
+
 }
-section a:hover{
+.contact-left a:hover{
   color: #dedede
 }
+
 
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
@@ -172,7 +176,7 @@ section a:hover{
 .wrapper {
   position: fixed;
   bottom: 3.125rem;
-  right: -23.125rem;
+  right: -24rem;
   max-width: 23.438rem;
   width: 100%;
   background: #fff;
@@ -256,7 +260,32 @@ header h2 {
 
 h1{
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
+}
+.gridbox div{
+  margin: 2rem;
+}
+.gridbox p{
+  margin: 2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+.gridbox a{
+  text-align: center;
+  padding: 1.5rem;
+  margin: 3rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+}
+.gridbox h2{
+  text-align: center;
+}
+.gridbox div{
+  align-items: center;
+  text-align: center;
 }
 
 .scrolldiv{
@@ -306,12 +335,6 @@ h1{
 
 .scrollerdiv3{
   max-width: 100%;
-  height: 40rem;
+  height: 30rem;
 }
-
-@media screen and (max-width: 1024px){
-  
-}
-
-
 
